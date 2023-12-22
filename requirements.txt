@@ -3,7 +3,8 @@ google_auth_oauthlib==0.4.6
 protobuf==3.19.1
 colorama==0.4.4
 rtfunicode==2.0
-certifi>=2021.10.8
+certifi>=2023.7.22
 six>=1.16.0
 python-Levenshtein>=0.12.2
 regex>=2022.1.18
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
